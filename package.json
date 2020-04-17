@@ -1,0 +1,16 @@
+{
+  "name": "static-nodejs-site-treehouse-by-moukim",
+  "version": "1.0.0",
+  "description": "a static node Js site for the FSJS TD treehouse by moukim hfaidh",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Moukim Hfaidh",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
+}

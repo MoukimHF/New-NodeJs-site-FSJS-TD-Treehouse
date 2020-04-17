@@ -1,0 +1,44 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+   a(href='/')
+     img#logo(src="/static/images/logo.svg"  width="150px" height="40px" alt="logo" class="roll-in-left")
+     hr
+   a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        h1 Moukim Hfaidh
+
+        p.lead.text-light
+          | Full Stack JavaScript Developer.
+
+        .portfolio-bio
+          ul
+            li 21 years old Full Stack JS developer 
+            li i am really a JavaScript lover 
+            li i works with many other languages as listed in my skills
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Skills
+
+        ul
+          li Express
+          li JS
+          li HTML5
+          li CSS
+          li PHP 
+          li SQL 
+          li Other cool stuff
+        h6 Contact Info
+
+        ul
+          li moukimhfaid@gmail.com
+
+        a.button.expanded(href='https://www.linkedin.com/in/moukimHF') LinkedIn
+        a.button.expanded(href='https://github.com/MoukimHF/') GitHub
+        a.button.expanded(href='https://twitter.com/HfaiedhMoukim') Twitter
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  

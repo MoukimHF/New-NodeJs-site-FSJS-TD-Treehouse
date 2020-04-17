@@ -1,0 +1,25 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+   a(href='/')
+     img#logo(src="/static/images/logo.svg"  width="150px" height="40px" alt="logo" class="roll-in-left")
+     hr
+  article.grid-container.portfolio-intro
+    div
+
+      h1 Let's make the web great together!
+
+      p.lead.text-light
+        | those are some of my main last projects
+  article.grid-container.portfolio-index
+    
+    .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
+
+     
+      each project in data 
+          .cell
+            a(href='/projects/'+project.id)
+              img.thumbnail(src=project.image_urls[0] class="swing-in-top-fwd" )
+              h5 #{project.project_name}
+      

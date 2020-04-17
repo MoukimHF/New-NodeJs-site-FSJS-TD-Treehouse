@@ -1,0 +1,56 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "A Random Quote Generator",
+      "description": "a Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://moukimhf.github.io/a_random_quote_generator-v1-by_moukim_hfaidh/",
+      "github_link": "https://github.com/MoukimHF/a_random_quote_generator-v1-by_moukim_hfaidh",
+      "image_urls": ["/static/images/projet1_main.png", "/static/images/Projet1_1.png", "/static/images/Projet1_2.png"]
+    },
+    {
+      "id": 1,
+      "project_name": "List Pagination and Filtering",
+      "description": "divide a long list into a series of pages and improve the user experience of a web page.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://moukimhf.github.io/Treehouse_Techdegree_FSJS_project_2_-List_Filter_and_Pagination/index.html",
+      "github_link": "https://github.com/MoukimHF/Treehouse_Techdegree_FSJS_project_2_-List_Filter_and_Pagination",
+      "image_urls": ["/static/images/Project2_main.PNG", "/static/images/Project2_1.PNG", "/static/images/Project2_2.PNG"]
+    },
+    {
+      "id": 2,
+      "project_name": "Interactive Form",
+      "description": "a form so that it’s engaging, interactive, and easy to use.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://moukimhf.github.io/Interactive-Form-TeamTreeHouse-Moukim-hfaidh/",
+      "github_link": "https://github.com/MoukimHF/Interactive-Form-TeamTreeHouse-Moukim-hfaidh",
+      "image_urls": ["/static/images/Project3_main.PNG", "/static/images/Project3_1.PNG", "/static/images/Project3_2.PNG"]    },
+    {
+      "id": 3,
+      "project_name": "Phrase Hunter",
+      "description": "a browser-based, word guessing game: Phrase Hunter.",
+      "technologies": ["HTML5", "CSS", "JavaScript","OOP"],
+      "live_link": "https://moukimhf.github.io/Phrase-Hunter-v2-by-Moukim/index.html",
+      "github_link": "https://github.com/MoukimHF/Phrase-Hunter-v2-by-Moukim",
+      "image_urls": ["/static/images/project4_main.PNG", "/static/images/project4_1.PNG", "/static/images/project4_2.PNG"]    },
+    {
+      "id": 4,
+      "project_name": "Public API Requests ",
+      "description": "Creating an employee directory by communicatingwith a third party API",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://moukimhf.github.io/Public_Api-Request-V1_TeamTreeHouse_TD-By-Moukim/",
+      "github_link": "https://github.com/MoukimHF/Public_Api-Request-V1_TeamTreeHouse_TD-By-Moukim",
+      "image_urls": ["/static/images/project5_main.PNG", "/static/images/project5_1.PNG", "/static/images/project5_2.PNG"]    },
+      {
+        "id": 5,
+        "project_name": "Rahma #Ched_Darek Stay at home ",
+        "description": "A user friendly site that shows the latests updates for corona virus besides a new solution to make everyday shopping more safe.",
+        "technologies": ["HTML5", "CSS", "JavaScript","JS","SQL","PHP"],
+        "live_link": "https://moukimdev.com/Hackaton/TnSolvers-ChedDarek/",
+        "github_link": "https://github.com/MoukimHF/Tn-Solvers--chedDarek",
+        "image_urls": ["/static/images/Project6_main.PNG", "/static/images/project6_1.PNG", "/static/images/project6_2.PNG"]    }
+      
+      
+  ]
+}
